@@ -6,7 +6,7 @@
 }
 
 /* main */
-html, body{
+html, body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.7em;
 }
@@ -16,7 +16,7 @@ a {
     text-decoration: none;
 }
 
-h1, h2, h3{
+h1, h2, h3 {
     padding-bottom: 20px;
 }
 
@@ -152,4 +152,20 @@ h1, h2, h3{
     width: 33.3%;
     padding: 50px;
     text-align: center;
+}
+
+#features .box i {
+    margin-bottom: 10px;
+}
+
+/* footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    background: #444;
+}
+
+.clear {
+    clear: both;
 }
