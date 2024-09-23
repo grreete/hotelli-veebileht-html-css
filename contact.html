@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 500px)" href="mobile.css">
     <title>Hotell - Kontakt</title>
 </head>
 <body>
@@ -20,6 +21,30 @@
             </div>
         </nav>
     </header>
+
+    <!--contact form-->
+    <section id="contact-form" class="py-30">
+        <div class="container">
+            <h1>Võta meiega <span class="text-primary">ühendust</span></h1>
+            <p>Palun täida all olev vorm</p>
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Nimi</label>
+                    <input type="text" id="name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Sõnum</label>
+                    <textarea id="message"></textarea></textarea>
+                </div>
+                <button type="submit" class="btn">Saada</button>
+            </form>
+        </div>
+    </section>
+
     <div class="clear"></div>
     <footer class="footer">
         <p>VOCO &copy; 2024, Kõik õigused on kaitstud</p>
