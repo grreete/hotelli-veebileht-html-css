@@ -22,7 +22,7 @@
 /*showcase */
 
 #showcase{
-    height: 100%;
+    height: auto;
 }
 
 #showcase .showcase-content {
@@ -31,7 +31,7 @@
 
 /* info */
 #info {
-    height: 400px;
+    height: auto;
 }
 
 #info .info-img {
